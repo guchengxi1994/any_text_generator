@@ -18,6 +18,7 @@ dependencies:
   langchain_lib:
     git:
       url: https://github.com/guchengxi1994/langchain_lib
+  logging: ^1.2.0
   markdown_widget: ^2.3.2+6
   riverpod: ^2.5.1
 
