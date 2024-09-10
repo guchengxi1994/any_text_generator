@@ -21,6 +21,7 @@ dependencies:
   logging: ^1.2.0
   markdown_widget: ^2.3.2+6
   riverpod: ^2.5.1
+  thanos_snap_effect: ^0.0.6
 
 dev_dependencies:
   flutter_launcher_icons: "^0.13.1"
@@ -31,6 +32,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  shaders:
+    - packages/thanos_snap_effect/shader/thanos_snap_effect.glsl
 
   assets:
     - assets/settings.json

@@ -1,0 +1,1 @@
+flutter run -d windows  -v --enable-experiment=macros
